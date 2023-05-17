@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/EscenaMenuPrincipal.unity
+    guid: a80cd41eb1574584c861df72cd53d053
+  - enabled: 1
+    path: Assets/Scenes/CinematicaPart1.unity
+    guid: 5dd258f82b0bf1545ba65272d0a19528
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 88932b6b28ed2f24b9f3a6e926950e3f
+  - enabled: 1
+    path: Assets/Scenes/CinematicaPart2.unity
+    guid: 9d2c720a63ab1bc4fa860764e8c5d15e
+  - enabled: 1
+    path: Assets/Scenes/FireStone.unity
+    guid: 6738c5f2b1bfff746900d58f9d1bff3b
+  - enabled: 1
+    path: Assets/Scenes/GoldenWoods.unity
+    guid: cd45a09415530994688cc03ed9eb8a0c
+  - enabled: 1
+    path: Assets/Scenes/Cueva.unity
+    guid: a8befe0b78368e14aad9232d3c1f67a8
+  - enabled: 1
+    path: Assets/Scenes/CasaDeMike.unity
+    guid: 79496cbf7a43b3643b9bdfa02faaac62
+  - enabled: 1
+    path: Assets/Scenes/FinalCanvas.unity
+    guid: 5a8caa3942557cd43b887a2d8644a06a
+  - enabled: 0
+    path: Assets/OutdoorsScene.unity
+    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}

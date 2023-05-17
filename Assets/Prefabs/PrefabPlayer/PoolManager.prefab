@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6090648825317487357
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6090648825317487355}
+  - component: {fileID: 6090648825317487354}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6090648825317487355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6090648825317487357}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 61.341347, y: 7.0364423, z: -65.88888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6090648825317487354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6090648825317487357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a336ee2dc275e4c428b5d30929f2a880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerList:
+  - parentName: Agua
+    power: {fileID: 7313654201406846562, guid: 928ff90e0d3b0994d842abc23227cc2b, type: 3}
+    size: 10
+    pooledPowers: []
+  - parentName: Fuego
+    power: {fileID: 337255963990672971, guid: 8ac34837610b6584f907e364938e7c5a, type: 3}
+    size: 10
+    pooledPowers: []
+  - parentName: AI Bullet
+    power: {fileID: 3603525534798434181, guid: 48fb217d1788eb54b9b3bc80f4da3f92, type: 3}
+    size: 10
+    pooledPowers: []
+  enemyPowerList: []
